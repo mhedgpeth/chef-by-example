@@ -77,6 +77,6 @@ For the first badge, you need to understand Automate itself, so this section won
 Watch [this video](https://www.youtube.com/watch?v=ldY7KEOxCkM&index=1&list=PL11cZfNdwNyOPa_kLgCX0wDW3O00Sjydx) to get an overview of Chef Automate.
 
 Now do this thought experiment:
-* How would you solidify your cookbook deployment workflow?
+* How would you solidify your cookbook deployment workflow? (if you don't know workflow enough, watch [this video](https://www.youtube.com/watch?v=OdoGu31EBU0))
 * How would you see what happens on your nodes?
 * How would you scan your nodes with inspec profiles?
