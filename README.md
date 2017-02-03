@@ -22,7 +22,7 @@ For more information on the certification, [watch this video](https://www.youtub
 * For the rest of the lab, create a Test Kitchen workflow that uses the `kitchen create`, `kitchen converge`, `kitchen verify` and `kitchen destroy` commands. Also use `kitchen login` to manually ssh into your ubuntu machine.
 * Create `/var/website` directory
 * Make sure `/var/old-website` directory does not exist
-* Write a file `/var/website/directions.txt` with text `website goes here` in it
+* Write a file `/var/website/directions.txt` with text "website goes here" in it
 * Write a file `builder.txt` to `/var/website/builder.txt` containing the text "[Your Name] built this" where `[Your Name]` is a cookbook attribute with your actual name.
 * Download the Chef logo into `/var/website`: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQmQ0CYwU3cpFE6gEB82cp6TSIcBJSisax_HVvEfsgYHGBsO8kQ
 * When you run test kitchen, `builder.txt` should contain the text `Test Kitchen built this`
