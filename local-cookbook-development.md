@@ -46,6 +46,7 @@ For all cookbooks below, follow these rules:
 * Using your private supermarket, upload `website` and `platform` to the Chef Server, converge a node with `knife bootstrap` and run your inspec profile to test that it converged properly
 * Freeze the version of the cookbook so it doesn't accidentally get written over
 * In the platform cookbook add an action to `base_utilities` that would remove those packages
+* Keep the original action as the default
 * Use `knife spork` to increment the version to `0.1.1`
 * Upload the new version of the `platform` to the supermarket
 * Add a `rollback` recipe to `website` that would remove it
@@ -70,6 +71,7 @@ For all cookbooks below, follow these rules:
 * Write this password out in clear text to `password.txt` in your file cache directory
 * Write all nodes that are running `ubuntu` to a file `ubuntu_nodes.txt` in the file cache directory (using `search`). Make sure this doesn't break your kitchen runs
 * On ubuntu nodes only, run `lsb_release -r` and write the results to a file, without using the execute resource. See https://docs.chef.io/ruby.html#shelling-out
+* Extract the contents of the `default` and `rollback` recipes into `website_installed` resource with two actions
 
 ## Kitchen
 
