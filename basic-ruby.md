@@ -9,6 +9,8 @@
 * **Collections:** two types: `array` (lists) and `Hash` (key/value pairs). Can hold any data
 * **Methods:** resuable behavior. Data can be passed in via _parameters_. A method can have a return value.
 * **Class:** reusable behavior and data
+* **Statements:** logic flow is done through statements, like `if` and `case`
+* **Looping:** looping is done with the `each` method on an `array` or `Hash`
 
 # Kata
 
