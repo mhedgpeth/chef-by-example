@@ -20,6 +20,8 @@ You shouldn't do this kata until you've mastered the [Basic Chef Fluency Kata](b
 * Log in as the administrator and grant the invitation
 * Log in as a user and access the organization. Set up a new connection to this chef server
 
+You can rebuild the above implementation with an ARM template.c
+
 ## Create Cookbook
 
 ### Workflow Description
